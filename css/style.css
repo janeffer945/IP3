@@ -4,7 +4,7 @@
     padding: 0;
 }
 .heading{
-    background: url(./.images/jen1.jpg);
+    background: url(images/jen1.jpg);
     background-size: cover;
     background-position: relative;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     width: 100%;
 }
 .paragraph{
-    background: url(./images/jen2.jpg);
+    background: url(images/jen2.jpg);
     background-size: cover;
     background-position: relative;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
     width: 100%;
 }
 .input{
-    background: url(./images/jen3.jpg);
+    background: url(images/jen3.jpg);
     background-size: cover;
     background-position: relative;
     background-repeat: no-repeat;
