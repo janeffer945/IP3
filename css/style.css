@@ -4,7 +4,7 @@
     padding: 0;
 }
 .heading{
-    background: url(./.images/one.jpg );
+    background: url(./.images/jen1.jpg);
     background-size: cover;
     background-position: relative;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     width: 100%;
 }
 .paragraph{
-    background: url(./images/2nd.jpg);
+    background: url(./images/jen2.jpg);
     background-size: cover;
     background-position: relative;
     background-repeat: no-repeat;
@@ -20,17 +20,17 @@
     width: 100%;
 }
 .input{
-    background: url(./images/3rd.jpg);
+    background: url(./images/jen3.jpg);
     background-size: cover;
     background-position: relative;
     background-repeat: no-repeat;
     height: 80vh;
     width: 100%;
 }
-.hero-content p{
+.heading-content p{
     font-size: 10px;
 }
-.hero-content .img{
+.heading-content .img{
     margin-top: -20px;
     padding-top: 20px;
 }
@@ -40,7 +40,7 @@ form input , form textarea{
 } form input{
     width: 400px;
 }
-form textarea{
+form  textarea{
     width: 800px;
     height: 200px;
 }
