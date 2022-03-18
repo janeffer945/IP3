@@ -1,0 +1,14 @@
+$('.design').click((e)=>{
+    e.currentTarget.nextElementSibling.classList.remove('d-none')
+    e.currentTarget.nextElementSibling.classList.add('d-block')
+    $('.design-description').css({'text-align':'center'})
+})
+$('.folio').mouseenter((e)=>{
+   console.log($(this))
+   $(e.currentTarget).find('.tittle').addClass('d-block')
+   $(e.currentTarget).find('.tittle').removeClass('d-none')
+})
+$('.folio').mouseleave((e)=>{
+   $(e.currentTarget).find('.tittle').addClass('d-none')
+   $(e.currentTarget).find('.tittle').removeClass('d-block')
+})
